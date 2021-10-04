@@ -1,0 +1,23 @@
+ul>li{
+  list-style: none;
+}
+
+ul>li>a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.blue-color{
+  color: #fff;
+  background-color: #163c66;
+}
+
+.btn-regular1{
+  background-color: #ff8000;
+  color: #fff;
+}
+
+.btn-regular1:hover{
+  background-color: #163c66;
+  color: #fff;
+}

@@ -1,3 +1,27 @@
 .hero{
-  background-color: aqua;
+  background-image: url('https://image.freepik.com/free-vector/success-student-consulting_7109-29.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-regular1{
+  background-color: #ff8000;
+  color: #fff;
+}
+
+.btn-regular1:hover{
+  background-color: #163c66;
+  color: #fff;
+}
+
+.btn-regular:hover{
+  background-color: #ff8000;
+  color: #fff;
+}
+
+.btn-regular{
+  background-color: #163c66;
+  color: #fff;
 }

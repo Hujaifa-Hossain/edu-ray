@@ -1,4 +1,13 @@
 .header-nav a{
   text-decoration: none;
   margin: 0 20px;
+  color: #fff;
+}
+
+.header-nav{
+  color: #fff;
+}
+
+.orange-color{
+  background-color: #163c66;
 }

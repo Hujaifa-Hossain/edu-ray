@@ -1,22 +1,23 @@
 import React, { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
-import Course from '../Course/Course';
+import OneCourse from '../OneCourse/OneCourse';
 import './AllService.css'
 
 const AllService = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch('./serve.JSON')
+    fetch('./AllService.JSON')
       .then(res => res.json())
       .then(data => setServices(data))
   }, [])
   return (
     <Container>
-      <div className="row">
-      {
-        services.map(service => <Course key={service.name} service={service}></Course>)
-      }
-    </div>
+      <h3 className="text-center my-3">Our All Courses</h3>
+      <div className="service-container">
+        {
+          services.map(service => <OneCourse key={service.name} service={service}></OneCourse>)
+        }
+      </div>
     </Container>
   );
 };
