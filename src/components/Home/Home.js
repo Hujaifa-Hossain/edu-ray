@@ -9,9 +9,7 @@ const Home = () => {
       <div className="container px-4">
         <div className="row gx-5">
           <div className="col">
-            <div className="p-4">
-              <br />
-              <br />
+            <div className="p-4 my-5">
               <h3>Master the Skills to Drive your Career.</h3>
               <p>Best online courses from the world’s leading experts.
                 Join 17 million learners today.</p>

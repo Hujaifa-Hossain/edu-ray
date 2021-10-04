@@ -8,7 +8,8 @@ const Header = () => {
     <div>
       <Navbar expand="lg" className="orange-color">
         <Container>
-          <Navbar.Brand href="/home" className="header-nav">Edu-Ray</Navbar.Brand>
+        <Navbar.Brand href="#home">
+        <img alt="" src="./images/—Pngtree—graduation caps vector convocation students_5320293.png" width="50" height="50" /><span className="text-white">Edu Ray</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto header-nav">
