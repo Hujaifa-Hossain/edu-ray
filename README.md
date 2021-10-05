@@ -5,9 +5,7 @@
 
 
 ### this site Technology use 
-React
-CSS
-React-Bootstrap
+React, CSS, React-Bootstrap
 
 # live site
 
